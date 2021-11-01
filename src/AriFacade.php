@@ -1,16 +1,16 @@
 <?php
 
-namespace Soap\Ami;
+namespace Soap\Ari;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Soap\Ami\Ami
+ * @see \Soap\Ari\Ari
  */
-class AmiFacade extends Facade
+class AriFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-ami';
+        return 'laravel-ari';
     }
 }

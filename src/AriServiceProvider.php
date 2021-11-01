@@ -1,12 +1,12 @@
 <?php
 
-namespace Soap\Ami;
+namespace Soap\Ari;
 
-use Soap\Ami\Commands\AmiCommand;
+use Soap\Ami\Commands\AriCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class AmiServiceProvider extends PackageServiceProvider
+class AriServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class AmiServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-ami')
+            ->name('laravel-ari')
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_laravel-ami_table')
-            ->hasCommand(AmiCommand::class);
+            ->hasCommand(AriCommand::class);
     }
 }

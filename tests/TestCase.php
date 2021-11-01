@@ -1,10 +1,10 @@
 <?php
 
-namespace Soap\Ami\Tests;
+namespace Soap\Ari\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Soap\Ami\AmiServiceProvider;
+use Soap\Ari\AriServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Soap\\Ami\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Soap\\Ari\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            AmiServiceProvider::class,
+            AriServiceProvider::class,
         ];
     }
 

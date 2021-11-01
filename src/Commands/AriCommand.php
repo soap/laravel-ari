@@ -1,12 +1,12 @@
 <?php
 
-namespace Soap\Ami\Commands;
+namespace Soap\Ari\Commands;
 
 use Illuminate\Console\Command;
 
-class AmiCommand extends Command
+class AriCommand extends Command
 {
-    public $signature = 'laravel-ami';
+    public $signature = 'ari';
 
     public $description = 'My command';
 

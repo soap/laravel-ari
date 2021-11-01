@@ -1,10 +1,12 @@
 {
-    "name": "soap/laravel-ami",
+    "name": "soap/laravel-ari",
     "description": "This is my package laravel-ami",
     "keywords": [
         "soap",
         "laravel",
-        "laravel-ami"
+        "asterisk",
+        "rest",
+        "laravel-ari"
     ],
     "homepage": "https://github.com/soap/laravel-ami",
     "license": "MIT",
@@ -30,13 +32,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Soap\\Ami\\": "src",
-            "Soap\\Ami\\Database\\Factories\\": "database/factories"
+            "Soap\\Ari\\": "src",
+            "Soap\\Ari\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Soap\\Ami\\Tests\\": "tests"
+            "Soap\\Ari\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Soap\\Ami\\AmiServiceProvider"
+                "Soap\\Ari\\AriServiceProvider"
             ],
             "aliases": {
-                "Ami": "Soap\\Ami\\AmiFacade"
+                "Ami": "Soap\\Ari\\AriFacade"
             }
         }
     },
