@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3546d5f9084beda9a49d98d96c86cdcc",
+    "content-hash": "ab1a5872424a8625150ae0b07f951e54",
     "packages": [
         {
             "name": "brick/math",
@@ -745,16 +745,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.68.1",
+            "version": "v8.69.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "abe985ff1fb82dd04aab03bc1dc56e83fe61a59f"
+                "reference": "545181da688db64fed6d8427e55f630a90ca0d32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/abe985ff1fb82dd04aab03bc1dc56e83fe61a59f",
-                "reference": "abe985ff1fb82dd04aab03bc1dc56e83fe61a59f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/545181da688db64fed6d8427e55f630a90ca0d32",
+                "reference": "545181da688db64fed6d8427e55f630a90ca0d32",
                 "shasum": ""
             },
             "require": {
@@ -913,7 +913,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-10-27T12:31:46+00:00"
+            "time": "2021-11-02T13:53:22+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1891,30 +1891,30 @@
         },
         {
             "name": "psr/log",
-            "version": "2.0.0",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376"
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/ef29f6d262798707a9edd554e2b82517ef3a9376",
-                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "src"
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1935,9 +1935,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/2.0.0"
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "time": "2021-07-14T16:41:46+00:00"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -5454,20 +5454,21 @@
         },
         {
             "name": "zendframework/zend-log",
-            "version": "2.5.2",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-log.git",
-                "reference": "6b0c8437c67153c5e81cdf1aaa147e5a126ed013"
+                "reference": "75bcfb813571705032571e2b471519b924b86fde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-log/zipball/6b0c8437c67153c5e81cdf1aaa147e5a126ed013",
-                "reference": "6b0c8437c67153c5e81cdf1aaa147e5a126ed013",
+                "url": "https://api.github.com/repos/zendframework/zend-log/zipball/75bcfb813571705032571e2b471519b924b86fde",
+                "reference": "75bcfb813571705032571e2b471519b924b86fde",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
+                "psr/log": "~1.0",
                 "zendframework/zend-servicemanager": "~2.5",
                 "zendframework/zend-stdlib": "~2.5"
             },
@@ -5493,8 +5494,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -5515,10 +5516,10 @@
             ],
             "support": {
                 "issues": "https://github.com/zendframework/zend-log/issues",
-                "source": "https://github.com/zendframework/zend-log/tree/release-2.5.2"
+                "source": "https://github.com/zendframework/zend-log/tree/release-2.6.0"
             },
             "abandoned": "laminas/laminas-log",
-            "time": "2015-07-06T21:24:08+00:00"
+            "time": "2015-07-20T17:41:08+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -7422,76 +7423,6 @@
                 }
             ],
             "time": "2021-01-03T15:53:42+00:00"
-        },
-        {
-            "name": "pestphp/pest-plugin-laravel",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest-plugin-laravel.git",
-                "reference": "bacc1ef1f537cf9adf692b6930e54f607ae530ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-laravel/zipball/bacc1ef1f537cf9adf692b6930e54f607ae530ad",
-                "reference": "bacc1ef1f537cf9adf692b6930e54f607ae530ad",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^7.0 || ^8.0",
-                "pestphp/pest": "^1.7",
-                "php": "^7.3 || ^8.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^5.12.1 || ^6.7.2",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\Laravel\\": "src/"
-                },
-                "files": [
-                    "src/Autoload.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The Pest Laravel Plugin",
-            "keywords": [
-                "framework",
-                "laravel",
-                "pest",
-                "php",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "source": "https://github.com/pestphp/pest-plugin-laravel/tree/v1.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-07-07T09:11:42+00:00"
         },
         {
             "name": "phar-io/manifest",
