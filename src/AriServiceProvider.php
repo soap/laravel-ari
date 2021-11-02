@@ -2,7 +2,7 @@
 
 namespace Soap\Ari;
 
-use Soap\Ami\Commands\AriCommand;
+use Soap\Ari\Commands\AriCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

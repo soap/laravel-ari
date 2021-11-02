@@ -21,7 +21,7 @@ You can publish and run the migrations with:
 
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Soap\Ari\AriServiceProvider" --tag="laravel-ari-config"
+php artisan vendor:publish --provider="Soap\Ari\AriServiceProvider" --tag="ari-config"
 ```
 
 This is the contents of the published config file:
